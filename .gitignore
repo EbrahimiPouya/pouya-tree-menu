@@ -1,0 +1,8 @@
+node_modules
+.idea
+dist
+/storybook-static
+yarn-error.log
+yarn.lock
+.parcel-cache
+package-lock.json
