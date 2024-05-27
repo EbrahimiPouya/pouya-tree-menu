@@ -1,0 +1,26 @@
+
+.permission-tree-render-item{
+    display: flex;
+    align-items: center;
+}
+
+.permission-folder-li ul{
+    padding: 0;
+    position: relative;
+}
+.permission-folder-li{
+    padding: 0;
+    position: relative;
+}
+
+.permission-folder-li ul>li::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.permission-folder-li ul :last-child::after{
+    height: 15px;
+}
